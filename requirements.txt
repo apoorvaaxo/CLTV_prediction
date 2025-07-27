@@ -1,0 +1,18 @@
+# Core Data Handling and Analysis
+pandas==2.2.0           # For data manipulation and analysis
+numpy==1.26.4           # For numerical operations
+openpyxl==3.1.2         # To read .xlsx Excel files (required by pandas for Excel files)
+
+# Data Visualization
+matplotlib==3.8.3       # For basic plotting
+seaborn==0.13.2         # For enhanced statistical data visualization
+
+# Jupyter Notebook Environment
+jupyter==1.0.0          # To run Jupyter Notebooks
+
+# Machine Learning (Anticipated for CLTV Models)
+scikit-learn==1.4.1.post1 # For traditional ML models (regression, clustering, preprocessing)
+lifetimes==0.11.3       # Specifically for probabilistic CLTV models (BG/NBD, Gamma-Gamma)
+xgboost==2.0.3          # For Gradient Boosting models (often high performance)
+lightgbm==4.3.0         # Another highly efficient Gradient Boosting library
+

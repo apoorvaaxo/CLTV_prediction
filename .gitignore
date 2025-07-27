@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+venv/
+.env
+/data/raw/*.zip    # Ignore zip files if you download them, keep the extracted data if small
+/data/processed/   # Ignore processed data in Git if it's large or can be regenerated
+/models/           # Ignore saved models, as they can be large
+
+# IDEs (VS Code specific)
+.vscode/
