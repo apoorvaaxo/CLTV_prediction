@@ -4,7 +4,7 @@
 
 This project's core output is an interactive web application that demonstrates the predictive model and its business insights.
 
-[![CLTV App Screenshot](https://i.imgur.com/your-screenshot-link-here.png)](https://your-app-url-here.streamlit.app)
+[![CLTV App Screenshot]("C:/Users/DELL/OneDrive/Desktop/CLTV_Predictor.png")](https://your-app-url-here.streamlit.app)
 
 * **Live App Link:** [Click here to view the live application!](https://your-app-url-here.streamlit.app)
 
@@ -56,7 +56,7 @@ An e-commerce company wants to move from a reactive marketing approach to a proa
 ### **Technologies Used**
 
 * **Programming Language:** Python
-* **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `lifetimes`, `xgboost`, `lightgbm`
+* **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `lifetimes`, `lightgbm`
 * **Environment:** Conda, Jupyter Notebook
 * **Version Control:** Git & GitHub
 
