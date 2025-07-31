@@ -33,13 +33,13 @@ An e-commerce company wants to move from a reactive marketing approach to a proa
 
 ### **Key Findings & Business Recommendations**
 
-* **High-Value Segment (The "VIPs"):** This segment constitutes approximately **[20%]** of our customer base but is predicted to generate a disproportionately high amount of future revenue. They have an average `Frequency` of **[X]** and a `Recency` of just **[Y]** days.
+* **High-Value Segment (The "VIPs"):** This segment constitutes approximately **20%** of our customer base but is predicted to generate a disproportionately high amount of future revenue, with an average predicted CLTV of over **$1.5 million**. They have an average `Frequency` of **12.03** and a `Recency` of just **20.90** days.
     * **Recommendation:** Implement a loyalty program, offer early access to products, and focus on personalized engagement to maximize their already high lifetime value.
 
-* **Medium-Value Segment (The "Growth Tier"):** This segment shows solid potential but requires targeted intervention to increase their value. They have an average `Frequency` of **[X]** and an average `AOV` of **[Y]**.
+* **Medium-Value Segment (The "Growth Tier"):** This segment shows solid potential but requires targeted intervention to increase their value. They have an average `Frequency` of **2.78** and an average `AOV` of **$375.16**.
     * **Recommendation:** Focus on upselling and cross-selling campaigns with product recommendations tailored to their past purchases.
 
-* **Low-Value / At-Risk Segment:** This segment has a low predicted CLTV and high `Recency` of **[X]** days, suggesting a high probability of churn.
+* **Low-Value / At-Risk Segment:** This segment has a low predicted CLTV and high `Recency` of **226.58** days, suggesting a high probability of churn.
     * **Recommendation:** A low-cost re-engagement campaign (e.g., a time-sensitive discount) should be tested. If unsuccessful, business resources should be directed toward more promising customer segments.
 
 ### **Technologies Used**
@@ -57,8 +57,3 @@ The full analysis and code are available in the following Jupyter notebooks:
 * `03_CLTV_Probabilistic_Models.ipynb`: Building the BG/NBD and Gamma-Gamma models.
 * `04_Customer_Segmentation_and_Strategy.ipynb`: Customer segmentation and strategic recommendations.
 
-### **Future Work**
-
-* Integrate a supervised machine learning model (e.g., XGBoost) to compare its predictive performance against the probabilistic model.
-* Incorporate external data (e.g., marketing campaign data, demographic information) to enrich the feature set.
-* Build a mock MLOps pipeline to demonstrate how the model could be deployed and monitored in a production environment.
