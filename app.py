@@ -44,7 +44,7 @@ st.title("Customer Lifetime Value (CLTV) Predictor")
 
 st.markdown("""
 This app predicts the Customer Lifetime Value for a new or existing customer based on their
-Recency, Frequency, and Monetary (RFM) behavior. It leverages a probabilistic model
+Recency, Frequency, and Monetary (RFM) behavior. It uses a probabilistic model
 (BG/NBD and Gamma-Gamma) to forecast future revenue.
 """)
 
@@ -95,9 +95,9 @@ if submitted and bgf and ggf:
     predicted_cltv = predicted_purchases * predicted_monetary_value
     
     # --- Display Results ---
-    st.success(f"### Predicted CLTV for the next 12 months: **${predicted_cltv:,.2f}**")
-    st.write(f"This customer is predicted to make **{predicted_purchases:,.2f}** purchases.")
-    st.write(f"The average monetary value per purchase is predicted to be **${predicted_monetary_value:,.2f}**.")
+    st.success(f"### Predicted CLTV for the next 12 months: **₹{predicted_cltv:,.2f}**")
+    st.write(f"This customer is predicted to make **{int(round(predicted_purchases))}** purchases.")
+    st.write(f"The average monetary value per purchase is predicted to be **₹{predicted_monetary_value:,.2f}**.")
     st.balloons()
 
 st.markdown("---")

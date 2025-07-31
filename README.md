@@ -1,5 +1,15 @@
 # Customer Lifetime Value (CLTV) Prediction and Optimization for an E-commerce Business
 
+### **Live Application**
+
+This project's core output is an interactive web application that demonstrates the predictive model and its business insights.
+
+[![CLTV App Screenshot](https://i.imgur.com/your-screenshot-link-here.png)](https://your-app-url-here.streamlit.app)
+
+* **Live App Link:** [Click here to view the live application!](https://your-app-url-here.streamlit.app)
+
+---
+
 ### **Project Overview**
 
 This project demonstrates an end-to-end data science pipeline for predicting Customer Lifetime Value (CLTV) and translating those predictions into actionable business strategies. The primary goal was to leverage historical e-commerce transaction data to forecast the future value of individual customers, enabling the business to optimize marketing spend, personalize customer experiences, and improve retention.
@@ -33,14 +43,15 @@ An e-commerce company wants to move from a reactive marketing approach to a proa
 
 ### **Key Findings & Business Recommendations**
 
-* **High-Value Segment (The "VIPs"):** This segment constitutes approximately **20%** of our customer base but is predicted to generate a disproportionately high amount of future revenue, with an average predicted CLTV of over **$1.5 million**. They have an average `Frequency` of **12.03** and a `Recency` of just **20.90** days.
-    * **Recommendation:** Implement a loyalty program, offer early access to products, and focus on personalized engagement to maximize their already high lifetime value.
+* **High-Value Segment (The "VIPs"):** This segment constitutes approximately **20%** of our customer base but is predicted to generate a disproportionately high amount of future revenue, with an average predicted CLTV of over **₹11.2 crore**. They have an average `Frequency` of **12.03** and a `Recency` of just **20.90** days.
+    * **Recommendation:** Implement a tiered loyalty program and provide exclusive access to products to retain these critical customers.
 
-* **Medium-Value Segment (The "Growth Tier"):** This segment shows solid potential but requires targeted intervention to increase their value. They have an average `Frequency` of **2.78** and an average `AOV` of **$375.16**.
-    * **Recommendation:** Focus on upselling and cross-selling campaigns with product recommendations tailored to their past purchases.
+* **Medium-Value Segment (The "Growth Tier"):** This segment shows solid potential for growth. They have an average `Frequency` of **2.78** and an average `AOV` of **₹28,137**.
+    * **Recommendation:** Focus on upselling and cross-selling campaigns to increase their average order value and purchase frequency.
 
-* **Low-Value / At-Risk Segment:** This segment has a low predicted CLTV and high `Recency` of **226.58** days, suggesting a high probability of churn.
-    * **Recommendation:** A low-cost re-engagement campaign (e.g., a time-sensitive discount) should be tested. If unsuccessful, business resources should be directed toward more promising customer segments.
+* **Low-Value / At-Risk Segment:** This segment has a high `Recency` of **226.58** days, indicating a high probability of churn.
+    * **Recommendation:** Use cost-effective "win-back" campaigns, such as a time-sensitive discount, to re-engage them.
+
 
 ### **Technologies Used**
 
